@@ -9,7 +9,7 @@
     <meta name="description" content="Vifolio - Creative Minimal Portfolio Template">
 
     <!-- ========== Page Title ========== -->
-    <title>StoryX | Sustainable Web Development</title>
+    <title>Vifolio - Creative Minimal Portfolio Template</title>
 
     <!-- ========== Favicon Icon ========== -->
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
@@ -48,9 +48,17 @@
     <header id="home">
 
         <!-- Start Navigation -->
-        <nav class="navbar navbar-default text-light navbar-fixed navbar-transparent white bootsnav">
+        <nav class="navbar navbar-default navbar-sticky bootsnav">
 
             <div class="container">
+
+                <!-- Start Atribute Navigation -->
+                <div class="attr-nav">
+                    <ul>
+                        <li class="side-menu"><a href="#"><i class="fa fa-bars"></i></a></li>
+                    </ul>
+                </div>
+                <!-- End Atribute Navigation -->
 
                 <!-- Start Header Navigation -->
                 <div class="navbar-header">
@@ -58,7 +66,6 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand" href="index.html">
-                        <img src="assets/img/logo-light.png" class="logo logo-display" alt="Logo">
                         <img src="assets/img/logo.png" class="logo logo-scrolled" alt="Logo">
                     </a>
                 </div>
@@ -66,19 +73,145 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
-                    <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
-                        <li>
-                            <a href="#">Home</a>
-                            
-                        
-                        <li>
-                            <a href="#">Pages</a>
-                            
+                    <ul class="nav navbar-nav navbar-center" data-in="#" data-out="#">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index.html">Home Version One</a></li>
+                                <li><a href="index-2.html">Home Version Two</a></li>
+                                <li><a href="index-3.html">Home Version Three</a></li>
+                                <li><a href="index-4.html">Home Version Four</a></li>
+                                <li><a href="index-5.html">Home Version Five</a></li>
+                                <li><a href="index-6.html">Home Version Six</a></li>
+                                <li><a href="index-7.html">Home Version Seven</a></li>
+                                <li><a href="index-8.html">Home Version Eight</a></li>
+                                <li><a href="index-9.html">Home Version Night</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Grid Colum</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="portfolio-grid-2-colum.html">2 Colum</a></li>
+                                        <li><a href="portfolio-grid-2-colum-full-width.html">2 Colum Full Width</a></li>
+                                        <li><a href="portfolio-grid-3-colum.html">3 Colum</a></li>
+                                        <li><a href="portfolio-grid-3-colum-full-width.html">3 Colum Full Width</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Masonary Colum</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="portfolio-masonary-2-colum.html">2 Colum</a></li>
+                                        <li><a href="portfolio-masonary-3-colum.html">3 Colum</a></li>
+                                        <li><a href="portfolio-masonary-4-colum.html">4 Colum</a></li>
+                                        <li><a href="portfolio-masonary-4-colum-full-width.html">4 Colum Full Width</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Mixed Colum</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="portfolio-mixed-colum.html">Style One</a></li>
+                                        <li><a href="portfolio-mixed-colum-2.html">Style Two</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="about-me.html">About Me</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="single.html">Blog Single</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="services.html">Services Grid</a></li>
+                                <li><a href="services-2.html">Services Carousel</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="404.html">Error Page</a></li>
+                                <li><a href="about-us.html">About</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
                         </li>
                         <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div>
+
+            <!-- Start Side Menu -->
+            <div class="side">
+                <a href="#" class="close-side"><i class="fa fa-times"></i></a>
+                <div class="widget personal-info">
+                    <h4 class="title">Personal Info</h4>
+                    <ul>
+                        <li>
+                            <div class="icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info">
+                                <span>Email</span> info@vifolio.com
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fas fa-home"></i>
+                            </div>
+                            <div class="info">
+                                <span>Contact</span> +332 456345987
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="widget instagram">
+                    <h4 class="title">Instagram Feed</h4>
+                    <ul class="link">
+                        <li>
+                            <a href="#"><img src="assets/img/800x800.png" alt="Thumb"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="assets/img/800x800.png" alt="Thumb"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="assets/img/800x800.png" alt="Thumb"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="assets/img/800x800.png" alt="Thumb"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="assets/img/800x800.png" alt="Thumb"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="assets/img/800x800.png" alt="Thumb"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="widget social">
+                    <h4 class="title">Connect With Us</h4>
+                    <ul class="link">
+                        <li class="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="pinterest"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                        <li class="dribbble"><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Side Menu -->
 
         </nav>
         <!-- End Navigation -->
@@ -86,7 +219,7 @@
     </header>
     <!-- End Header -->
 
-<!-- Start Banner 
+    <!-- Start Banner 
     ============================================= -->
     <div class="banner-area auto-height heading-uppercase bg-theme text-light">
         <div class="box-table">
