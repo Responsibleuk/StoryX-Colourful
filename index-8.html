@@ -48,7 +48,8 @@
     <header id="home">
 
         <!-- Start Navigation -->
-        <nav class="navbar navbar-default navbar-sticky bootsnav">
+        <nav class="navbar navbar-default text-light navbar-fixed navbar-transparent white bootsnav">
+
             <div class="container">
 
                 <!-- Start Header Navigation -->
@@ -57,6 +58,7 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand" href="index.html">
+                        <img src="assets/img/logo-light.png" class="logo logo-display" alt="Logo">
                         <img src="assets/img/logo.png" class="logo logo-scrolled" alt="Logo">
                     </a>
                 </div>
@@ -144,24 +146,24 @@
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div>
+
         </nav>
         <!-- End Navigation -->
+
     </header>
     <!-- End Header -->
 
     <!-- Start Banner 
     ============================================= -->
-    <div class="banner-area auto-height shadow inc-button dark text-light bg-fixed" style="background-image: url(assets/img/2440x1578.png);">
+    <div class="banner-area auto-height text-center navbar-transparent text-light shadow dark-hard bg-fixed" style="background-image: url(assets/img/2440x1578.png);">
         <div class="box-table">
             <div class="box-cell">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-8">
-                            <div class="col-md-8 col-md-offset-2">
-                                <div class="content" data-animation="animated fadeInUpBig">
-                                    <h1>Hello, We <span>are befolio</span></h1>
-                                    <h2>A digital creative studio that creates brand and digital experiences.</h2>
-                                </div>
+                        <div class="col-md-8 col-md-offset-2">
+                            <div class="content" data-animation="animated fadeInUpBig">
+                                <h1>Hello, We <span>are befolio</span></h1>
+                                <h2>A digital creative studio that creates brand and digital experiences.</h2>
                             </div>
                         </div>
                     </div>
@@ -171,193 +173,109 @@
     </div>
     <!-- End Banner -->
 
-
-    <!-- End Page Heading -->
-
-    <!-- Start Breadcrumb Banner 
+    <!-- Start Portfolio
     ============================================= -->
-    <div class="breadcrumb-items bg-gray">
+    <div id="portfolio" class="portfolio-area info-shadow bg-gray default-padding">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="breadcrumb">
-                        <li><a href="#">Home</a></li>
-                        <li class="active">Blog</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Breadcrumb Banner -->
+            <div class="portfolio-items-area">
+                <div class="row">
+                    <div class="col-md-12 portfolio-content">
+                        <div class="mix-item-menu bottom-cirlce text-center">
+                            <button class="active" data-filter="*">All</button>
+                            <button data-filter=".development">Illustrator</button>
+                            <button data-filter=".design">Creative</button>
+                            <button data-filter=".photography">Digital</button>
+                            <button data-filter=".branding">Minimal</button>
+                            <button data-filter=".video">Branding</button>
+                        </div>
+                        <!-- End Mixitup Nav-->
 
-    <!-- Start Blog 
-    ============================================= -->
-    <div id="blog" class="blog-area full-blog default-padding">
-        <div class="container">
-            <div class="row">
-                <div class="blog-items">
-                    <div class="col-md-6 col-sm-6 equal-height">
-                        <div class="item">
-                            <div class="thumb">
-                                <a href="single.html"><img src="assets/img/800x600.png" alt="Thumb"></a>
+                        <div class="row magnific-mix-gallery effect-up clean-text masonary text-light">
+                            <div id="portfolio-grid" class="portfolio-items col-3">
+                                <div class="pf-item branding photography">
+                                     <div class="item-effect">
+                                        <img src="assets/img/800x800.png" alt="thumb">
+                                        <div class="bottom-info">
+                                            <h4>Report Analysis</h4>
+                                            <a href="assets/img/800x800.png" class="item popup-link"><i class="fa fa-expand"></i></a>
+                                            <a href="#"><i class="fas fa-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pf-item video development">
+                                    <div class="item-effect">
+                                        <img src="assets/img/800x800.png" alt="thumb">
+                                        <div class="bottom-info">
+                                            <h4>Report Analysis</h4>
+                                            <a href="assets/img/800x800.png" class="item popup-link"><i class="fa fa-expand"></i></a>
+                                            <a href="#"><i class="fas fa-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pf-item design photography">
+                                    <div class="item-effect">
+                                        <img src="assets/img/800x800.png" alt="thumb">
+                                        <div class="bottom-info">
+                                            <h4>Report Analysis</h4>
+                                            <a href="assets/img/800x800.png" class="item popup-link"><i class="fa fa-expand"></i></a>
+                                            <a href="#"><i class="fas fa-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pf-item branding video">
+                                    <div class="item-effect">
+                                        <img src="assets/img/800x800.png" alt="thumb">
+                                        <div class="bottom-info">
+                                            <h4>Report Analysis</h4>
+                                            <a href="assets/img/800x800.png" class="item popup-link"><i class="fa fa-expand"></i></a>
+                                            <a href="#"><i class="fas fa-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pf-item design photography">
+                                    <div class="item-effect">
+                                        <img src="assets/img/800x800.png" alt="thumb">
+                                        <div class="bottom-info">
+                                            <h4>Report Analysis</h4>
+                                            <a href="assets/img/800x800.png" class="item popup-link"><i class="fa fa-expand"></i></a>
+                                            <a href="#"><i class="fas fa-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pf-item branding design development">
+                                    <div class="item-effect">
+                                        <img src="assets/img/800x800.png" alt="thumb">
+                                        <div class="bottom-info">
+                                            <h4>Report Analysis</h4>
+                                            <a href="assets/img/800x800.png" class="item popup-link"><i class="fa fa-expand"></i></a>
+                                            <a href="#"><i class="fas fa-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="info">
-                                <div class="date">
-                                    <h4>24 Nov, 2018</h4>
+                            <div class="load-button text-center">
+                                <div class="col-md-12">
+                                    <a href="#" class="btn btn-dark border btn-md">Load More <i class="fas fa-spinner"></i></a>
                                 </div>
-                                <h4>
-                                    <a href="single.html">Objection happiness something</a>
-                                </h4>
-                                <div class="meta">
-                                    <ul>
-                                        <li>
-                                            <a href="#"><i class="fas fa-user"></i> Author</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fas fa-comments"></i> 23 Comments</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <p>
-                                    Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the partiality unaffected
-                                </p>
-                                <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 equal-height">
-                        <div class="item">
-                            <div class="thumb">
-                                <a href="single.html"><img src="assets/img/800x600.png" alt="Thumb"></a>
-                            </div>
-                            <div class="info">
-                                <div class="date">
-                                    <h4>15 Dec, 2018</h4>
-                                </div>
-                                <h4>
-                                    <a href="single.html">Sufficient an companions</a>
-                                </h4>
-                                <div class="meta">
-                                    <ul>
-                                        <li>
-                                            <a href="#"><i class="fas fa-user"></i> Author</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fas fa-comments"></i> 23 Comments</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <p>
-                                    Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the partiality unaffected
-                                </p>
-                                <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 equal-height">
-                        <div class="item">
-                            <div class="thumb">
-                                <a href="single.html"><img src="assets/img/800x600.png" alt="Thumb"></a>
-                            </div>
-                            <div class="info">
-                                <div class="date">
-                                    <h4>17 Jan, 2019</h4>
-                                </div>
-                                <h4>
-                                    <a href="single.html">Depending objection happiness</a>
-                                </h4>
-                                <div class="meta">
-                                    <ul>
-                                        <li>
-                                            <a href="#"><i class="fas fa-user"></i> Author</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fas fa-comments"></i> 23 Comments</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <p>
-                                    Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the partiality unaffected
-                                </p>
-                                <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 equal-height">
-                        <div class="item">
-                            <div class="thumb">
-                                <a href="single.html"><img src="assets/img/800x600.png" alt="Thumb"></a>
-                            </div>
-                            <div class="info">
-                                <div class="date">
-                                    <h4>04 Nov, 2018</h4>
-                                </div>
-                                <h4>
-                                    <a href="single.html">Defective recommend suffering</a>
-                                </h4>
-                                <div class="meta">
-                                    <ul>
-                                        <li>
-                                            <a href="#"><i class="fas fa-user"></i> Author</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fas fa-comments"></i> 23 Comments</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <p>
-                                    Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the partiality unaffected
-                                </p>
-                                <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 pagi-area">
-                        <nav aria-label="navigation">
-                            <ul class="pagination">
-                                <li><a href="#">Previous</a></li>
-                                <li class="active"><a href="#">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li><a href="#">Next</a></li>
-                            </ul>
-                        </nav>
+                        <!-- End Portfoio Row -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End Blog -->
+    <!-- End Portfolio -->
 
     <!-- Start Footer 
     ============================================= -->
-    <footer class="text-center bg-dark text-light">
+    <footer class="text-center bg-dark centerd">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 logo text-left">
+                <div class="col-md-12 logo">
                     <img src="assets/img/logo-light.png" alt="Logo">
                 </div>
-                
-                <div class="col-md-6 menu text-center">
-                    <ul>
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="blog.html">Blog</a>
-                        </li>
-                        <li>
-                            <a href="#">Services</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-3 footer-social text-right">
+                <div class="col-md-12 footer-social">
                     <ul>
                         <li class="facebook">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -373,7 +291,26 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-12 copyright border">
+                <div class="col-md-12 menu">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-12 copyright">
                     <p>&copy; Copyright 2018. Adipotto Template By <a href="#">Validthemes</a></p>
                 </div>
             </div>
