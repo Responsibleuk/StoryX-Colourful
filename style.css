@@ -3753,3 +3753,34 @@ footer.bg-light .copyright.border {
 
 .error-page-area h1 {
 }
+
+/* ==========================================================================
+   Feature Section
+   ========================================================================== */
+   .feature_section{
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #eaeaea;
+}
+.feature_moc{
+    width: 100%;
+    padding: 0 20px;
+}
+.feature_list{
+    padding: 15px 0;
+}
+.feature_list .list_item i{
+    background: #f45442;
+    /* background: -moz-linear-gradient(-45deg, #f98f1c 0%, #f45442 100%);
+    background: -webkit-linear-gradient(-45deg, #f98f1c 0%,#f45442 100%);
+    background: linear-gradient(135deg, #f98f1c 0%,#f45442 100%); */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f98f1c', endColorstr='#f45442',GradientType=1 );
+    content: '';
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 15px;
+}
