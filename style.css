@@ -3790,11 +3790,70 @@ footer.bg-light .copyright.border {
 ========================================================*/
 
 .parallax-bg {
-	background-image: ../i;
+	
 	background-size: cover !important;
 	text-align: center;
 }
 
 .sectoion-100px {
 	padding: 100px 0;
+}
+
+/*=======================================================
+			PRICING
+========================================================*/
+.pricing {
+}
+.pricing .plan-in {
+	border: 1px solid #eeeeee;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.pricing .plan-in h5 {
+	color: #fff;
+	font-size: 20px;
+	padding: 15px 0;
+	margin: 0px;
+	background:#222222;
+}
+.pricing .plan-in .icon{
+	height:60px;
+	width:60px;
+	line-height:60px;
+	text-align:center;
+	background:#434343;
+	display:inline-block;
+	border-radius:50%;
+	font-weight:normal;
+	margin-right:10px;
+}
+.pricing .plan-in .price {
+	padding: 30px 0;
+	font-size:38px;
+	line-height:24px;
+	display:inline-block;
+	font-weight:500;
+	padding-bottom:0px;
+}
+.pricing .plan-in .month {
+	font-size: 13px;
+	line-height: 30px;
+	margin-top: 0px;
+	width:100%;
+	font-weight:normal; 
+	display: inline-block;
+	color:#777777;
+}
+.pricing .plan-in ul {
+	padding: 20px 0;
+}
+.pricing .plan-in ul li {
+	font-size: 13px;
+	line-height: 40px;
+	letter-spacing: 1px;
+	color: #989898;
+}
+.pricing .plan-in .btn {
+	background: #333333;
+	color: #fff;
 }
