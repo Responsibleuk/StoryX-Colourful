@@ -3784,3 +3784,17 @@ footer.bg-light .copyright.border {
     color: #fff;
     margin-bottom: 15px;
 }
+
+/*=======================================================
+      Padding 100px
+========================================================*/
+
+.parallax-bg {
+	background-image: ../i;
+	background-size: cover !important;
+	text-align: center;
+}
+
+.sectoion-100px {
+	padding: 100px 0;
+}
