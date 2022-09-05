@@ -648,6 +648,32 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     
 }
 
+.video_section5{
+    background-image: url("../img/flood.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    padding: 150px 0;
+    z-index: 1;
+    
+}
+
+.video_section7{
+    background-image: url("../img/ele-story.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    padding: 150px 0;
+    z-index: 1;
+    
+}
+
 
 .video_content{
     color: #fff;
