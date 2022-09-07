@@ -451,3 +451,21 @@
     width: 50%;
   }
 }
+
+/* ---- Start of max-width 520px CSS ---- */
+@media all and (max-width: 520px) {
+  h3, h4{ font-size: 13px; }
+  .col-xs-6{
+      float: none;
+      width: 100%;
+  }
+  .feature_list,
+  .feature_list.text-right{ text-align: center; }
+  .counter_content h3{ font-size: 60px; }
+  .counter_content h4 { font-size: 24px; }
+  .testimonial_item p { font-size: 16px; }
+  .testimonial_item p br { display: none; }
+  .subscribe_form { width: 98%; }
+
+}
+/* ---- End of max-width 520px CSS ---- */
