@@ -1,14 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
 <head>
-    <!-- ========== Meta Tags ========== -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="StoryX Sustainable website design">
+    <meta name="description"
+        content="Doing our bit is the largest free wellbeing platform for frontline workers in the UK.">
+    <meta name="fibodo" content="Built and powered by fibodo">
 
-    <!-- ========== Page Title ========== -->
     <title>StoryX | Foundation</title>
 
     <!-- ========== Favicon Icon ========== -->
@@ -17,6 +21,7 @@
     <!-- ========== Start Stylesheet ========== -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/css/elegant-line-icons.css" rel="stylesheet" />
     <link href="assets/css/flaticon-set.css" rel="stylesheet" />
     <link href="assets/css/magnific-popup.css" rel="stylesheet" />
     <link href="assets/css/owl.carousel.min.css" rel="stylesheet" />
@@ -27,28 +32,47 @@
     <link href="assets/css/responsive.css" rel="stylesheet" />
     <!-- ========== End Stylesheet ========== -->
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="assets/js/html5/html5shiv.min.js"></script>
-      <script src="assets/js/html5/respond.min.js"></script>
-    <![endif]-->
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="assets/sustainability/css/font-awesome.min.css">
+    <!-- Elegant Font Icons CSS -->
+    <link rel="stylesheet" href="assets/sustainability/css/elegant-font-icons.css">
+    <!-- Elegant Line Icons CSS -->
+    <link rel="stylesheet" href="assets/sustainability/css/elegant-line-icons.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/sustainability/css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="assets/sustainability/css/animate.min.css">
+    <!-- Venobox CSS -->
+    <link rel="stylesheet" href="assets/sustainability/css/venobox.css">
+    <!-- OWL-Carousel CSS -->
+    <link rel="stylesheet" href="assets/sustainability/css/owl.carousel.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/sustainability/css/main.css">
+    <!-- <link rel="stylesheet" href="css/color.css"> -->
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/sustainability/css/responsive.css">
 
-    <!-- ========== Google Fonts ========== -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800" rel="stylesheet">
-
+    <script src="assets/sustainability/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar" data-offset="60">
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
+    <div id='preloader'>
+        <div class='loader'>
+            <img src="img/preloader.svg" width="60" alt="">
+        </div>
+    </div><!-- Preloader -->
 
     <!-- Header 
     ============================================= -->
     <header id="home">
 
         <!-- Start Navigation -->
-        <nav class="navbar navbar-default navbar-sticky bootsnav">
+        <nav class="navbar navbar-default text-light navbar-fixed navbar-transparent white bootsnav">
+
             <div class="container">
 
                 <!-- Start Header Navigation -->
@@ -57,6 +81,7 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand" href="index.html">
+                        <img src="assets/img/logo-light.png" class="logo logo-display" alt="Logo">
                         <img src="assets/img/logo.png" class="logo logo-scrolled" alt="Logo">
                     </a>
                 </div>
@@ -65,34 +90,38 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
-                        
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="work.html">Our Work</a></li>
-                            <li class="active"><a href="foundation.html">Foundation</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
-                        
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="work.html">Our Work</a></li>
+                        <li><a href="foundation.html">Foundation</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div>
+
         </nav>
         <!-- End Navigation -->
+
     </header>
     <!-- End Header -->
 
     <!-- Start Banner 
     ============================================= -->
-    <div class="banner-area auto-height shadow inc-button dark text-light bg-fixed" style="background-image: url(assets/img/services.jpg);">
+    <div class="banner-area auto-height navbar-transparent text-light shadow bg-fixed"
+        style="background-image: url(assets/img/planet.jpg);">
         <div class="box-table">
             <div class="box-cell">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8">
                             <div class="content">
-                                <h1>Our Services</h1>
-                                <h2>We talk about how to build a sustainable business, technology and share good news</h2>
-                                <a href="#" class="btn btn-light effect btn-md">Contact Us</a>
+                                <!-- <h1>The StoryX commitment to a better future</h1> -->
+                                <h2>"The greatest threat to our planet is the<br> belief that someone else will save
+                                    it.”
+                                </h2>
+
+                                <!-- <a class="btn btn-light effect btn-md" href="services.html">Our Services</a> -->
                             </div>
                         </div>
                     </div>
@@ -103,156 +132,319 @@
     <!-- End Banner -->
 
 
-    <!-- End Page Heading -->
+
+    
 
 
-   
-    <!-- Start Services 
-    ============================================= -->
-    <div class="services-area bg-gray text-center default-padding bottom-less">
+    <section class="promo_section padding">
         <div class="container">
-            <div class="row">
-                <div class="site-heading text-center">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h2>Our <span>Services</span></h2>
-                        <p>
-                            We create sustainable digital products and experiences that excite, inspire and make your
-                            business stand out in overcrowded digital spaces. We specialise in cutting-edge web design,
-                            development, growth marketing and a full suite of eCommerce services.
-                        </p>
-                    </div>
+            <div class="col-md-5 col-sm-6 col-md-offset-1 xs-hidden">
+                <div class="doc_mockup">
+                    <img src="assets/img/planet-earth.png" alt="about-moc">
+                    <!-- <img src="img/phone-2.png" class="doc_mockup_2 wow fadeInLeft" data-wow-delay="500ms"
+                        data-wow-duration="800ms" alt="about-moc"> -->
                 </div>
             </div>
-  
-                <div class="services-items">
-                    <div class="col-md-4 col-sm-6 equal-height">
-                        <div class="item">
-                            <i class="flaticon-jigsaws"></i>
-                            <h4>Strategy</h4>
-                            <p>
-                                Morning because as to society behaved moments. Put ladies design mrs sister was. Play on hill felt john no gate. Am passed figure to marked
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 equal-height">
-                        <div class="item">
-                            <i class="flaticon-sketch"></i>
-                            <h4>Marketing</h4>
-                            <p>
-                                Morning because as to society behaved moments. Put ladies design mrs sister was. Play on hill felt john no gate. Am passed figure to marked
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 equal-height">
-                        <div class="item">
-                            <i class="flaticon-technical-support"></i>
-                            <h4>Research</h4>
-                            <p>
-                                Morning because as to society behaved moments. Put ladies design mrs sister was. Play on hill felt john no gate. Am passed figure to marked
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 equal-height">
-                        <div class="item">
-                            <i class="flaticon-layers-1"></i>
-                            <h4>Branding</h4>
-                            <p>
-                                Morning because as to society behaved moments. Put ladies design mrs sister was. Play on hill felt john no gate. Am passed figure to marked
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 equal-height">
-                        <div class="item">
-                            <i class="flaticon-growth"></i>
-                            <h4>Growth</h4>
-                            <p>
-                                Morning because as to society behaved moments. Put ladies design mrs sister was. Play on hill felt john no gate. Am passed figure to marked
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 equal-height">
-                        <div class="item">
-                            <i class="flaticon-network"></i>
-                            <h4>Analysis</h4>
-                            <p>
-                                Morning because as to society behaved moments. Put ladies design mrs sister was. Play on hill felt john no gate. Am passed figure to marked
-                            </p>
-                        </div>
-                    </div>
+            <div class="col-md-5 col-sm-6 xs-padding">
+                <div class="doc_content">
+                    <h2>Planet Earth Needs Our Help.</h2>
+                                <p>If we don’t make massive changes to our behavior over the
+                                    next twelve years, the damage we’ve done to this planet will be irreversible. Oceans
+                                    will be destroyed, super storms will become even more super, cities will flood, the
+                                    air will suck, and we’ll run out of food and energy. And not in a couple of hundred
+                                    years either, scientists say it's right around the corner. But the power to prevent
+                                    this is in our hands!</p>
+
+                    <a href="#" class="app_btn">Get Started</a>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- End Services -->
+    </section><!-- /.doc_section -->
 
+    <section class="video_section7 overlay">
 
-
-    <!-- Foundation 
-    ============================================= -->
-    <div class="about-area about-me default-padding">
         <div class="container">
-            <div class="row">
-                <div class="col-md-5 left-info">
+
+            <div class="video_content">
+
+
+                <h2>
+
+                    “Nothing we do can change the past, but everything we do changes the future.”</h2>
+                <p>Ashleigh Ellwood Brilliant</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- hero_section -->
+
+
+
+    <section id="about" class="about_section padding">
+        <div class="container">
+            <div class="col-md-6">
+                <div class="about_wrap">
+                    <div class="display-table">
+                        <div class="table-cell">
+                            <div class="section_heading align-left mb-30">
+                                <h2>Our Mission</h2>
+                                <p>Our mission is to build amazing websites, for businesses that are committed to
+                                    creating a better future. use tech for good and inspire people to make choices that
+                                    are good for people and our planet.</p>
+                                <p>StoryX is committed to reducing its impact on the environment. We will strive to
+                                    improve our environmental performance over time and to initiate additional projects
+                                    and activities that will further reduce our impacts on the environment. goals to
+                                    reduce these impacts each year.
+
+                                    <hr>
+                                    <a href="#" class="app_btn"><i class="fa fa-read"></i>Get Started</a>
+                                </p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div><!-- About Content -->
+            <div class="col-md-6 hidden-xs">
+                <ul class="moc_items">
+
+                    <li class="moc_front">
+                        <img src="assets/img/tfg.png" alt="Mockup Front">
+                    </li>
+
+                </ul>
+            </div><!-- Mockup Items -->
+        </div>
+    </section><!-- About Section -->
+
+
+
+
+    <section class="promo_section padding">
+        <div class="container">
+            <div class="col-md-5 col-sm-6 col-md-offset-1 xs-hidden">
+                <div class="doc_mockup">
+                    <img src="assets/img/sdg.png" alt="about-moc">
+                    <!-- <img src="img/phone-2.png" class="doc_mockup_2 wow fadeInLeft" data-wow-delay="500ms"
+                        data-wow-duration="800ms" alt="about-moc"> -->
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-6 xs-padding">
+                <div class="doc_content">
+                    <h2>The SDG’s</h2>
+                    <p>Offering classes from leading instructors across fitness, wellness, mental health and nutrition,
+                        with new programs added every month. Our classes help people to learn new skills to live their
+                        best lives. Doing Our Bit is the largest free platform supporting the wellbeing of frontline
+                        workers in the UK..</p>
+                    <ul class="list_check mt-30 mb-30">
+                        <li>Get Active.</li>
+                        <li>Learn New Skills</li>
+                        <li>Practice Mindfulness.</li>
+                        <li>Have Fun.</li>
+                    </ul>
+                    <a href="#" class="app_btn">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section><!-- /.doc_section -->
+
+    <section class="video_section5 overlay">
+
+        <div class="container">
+
+            <div class="video_content">
+
+
+                <h2>
+
+                    The People Least Responsible For Global Warming Will Suffer The Most From Its Consequences
+                </h2>
+                <!-- <p>Margaret J Wheatley</p> -->
+            </div>
+        </div>
+
+    </section>
+    <!-- hero_section -->
+
+    <section id="about" class="about_section padding">
+        <div class="container">
+            <div class="col-md-6">
+                <div class="about_wrap">
+                    <div class="display-table">
+                        <div class="table-cell">
+                            <div class="section_heading align-left mb-30">
+                                <h2>Net Zero</h2>
+                                <p>The science shows clearly that in order to avert the worst impacts of climate change
+                                    and preserve a livable planet, global temperature increase needs to be limited to
+                                    1.5°C above pre-industrial levels. Currently, the Earth is already about 1.1°C
+                                    warmer than it was in the late 1800s, and emissions continue to rise. To keep global
+                                    warming to no more than 1.5°C – as called for in the Paris Agreement – emissions
+                                    need to be reduced by 45% by 2030 and reach net zero by 2050.</p>
+
+
+                                <hr>
+                                <a href="#" class="app_btn"><i class="fa fa-read"></i>Get Started</a>
+                                </p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div><!-- About Content -->
+            <div class="col-md-6 hidden-xs">
+                <ul class="moc_items">
+
+                    <li class="moc_front">
+                        <img src="assets/img/UKGBC-Net-Zero-Operational-Carbon-One-Pager-diagram-only-4-920x540.jpeg"
+                            alt="Mockup Front">
+                    </li>
+
+                </ul>
+            </div><!-- Mockup Items -->
+        </div>
+    </section><!-- About Section -->
+
+
+
+
+    <section class="promo_section padding">
+        <div class="container">
+            <div class="col-md-5 col-sm-6 col-md-offset-1 xs-hidden">
+                <div class="doc_mockup">
+
+                    <img src="assets/img/ed-girl.png" alt="Mockup Front">
+                    <!-- <img src="img/phone-2.png" class="doc_mockup_2 wow fadeInLeft" data-wow-delay="500ms"
+                        data-wow-duration="800ms" alt="about-moc"> -->
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-6 xs-padding">
+                <div class="doc_content">
+                    <h2>Becoming Carbon Positive</h2>
+                    <p>We donate 5% of our profits to projects that support The Education of Girls.</p>
+                    <p>The environmental movement rarely makes links between the education of girls and success in
+                        tackling climate change. One rare example of conservation work being tied successfully to
+                        educating and empowering women is the Andavadoaka clinic in Madagascar, which is funded by a
+                        British charity, Blue Ventures Conservation (BVC).</p>
+                    <ul class="list_check mt-30 mb-30">
+                        <li>Get Active.</li>
+                        <li>Learn New Skills</li>
+                        <li>Practice Mindfulness.</li>
+                        <li>Have Fun.</li>
+                    </ul>
+                    <a href="#" class="app_btn">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section><!-- /.doc_section -->
+
+    <section class="video_section overlay">
+
+        <div class="container">
+
+            <div class="video_content">
+
+
+                <h2>
+
+                    "The people who were trying to make this world worse are not taking the day off. Why should I?<br>
+                    Light
+                    up the darkness."</span>
+
+                </h2>
+                <p>Bob Marley</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- hero_section -->
+
+    <section id="about" class="about_section padding">
+        <div class="container">
+            <div class="col-md-6">
+                <div class="about_wrap">
+                    <div class="display-table">
+                        <div class="table-cell">
+                            <div class="section_heading align-left mb-30">
+                                <h2>The Climate Reality Project</h2>
+                                <p>Get the tools, training, and network to fight climate change and together build the
+                                    world we want.</p>
+                                <p>People like you are using their voices and everyday choices to solve the climate
+                                    crisis. Join the movement.
+
+                                    <hr>
+                                    <a href="https://www.climaterealityproject.org/" class="app_btn"><i
+                                            class="fa fa-read"></i>Join The Movement</a>
+                                </p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div><!-- About Content -->
+            <div class="col-md-6 hidden-xs">
+                <ul class="moc_items">
+
+                    <li class="moc_front">
+                        <img src="assets/img/al-gore.png" alt="Mockup Front">
+                    </li>
+
+                </ul>
+            </div><!-- Mockup Items -->
+        </div>
+    </section><!-- About Section -->
+
+    <section class="promo_section padding">
+        <div class="container">
+            <div class="col-md-5 col-sm-6 col-md-offset-1 xs-hidden">
+                <div class="doc_mockup">
+
                     <img src="assets/img/foundation.png" alt="Thumb">
+                    <!-- <img src="img/phone-2.png" class="doc_mockup_2 wow fadeInLeft" data-wow-delay="500ms"
+                        data-wow-duration="800ms" alt="about-moc"> -->
                 </div>
-                <div class="col-md-7 right-info">
+            </div>
+            <div class="col-md-5 col-sm-6 xs-padding">
+                <div class="doc_content">
                     <h2>The StoryX Foundation</h2>
-                    <h4>Our Commitment</h4>
-                    <p>
-                        Household shameless incommode at no objection behaviour. Especially do at he possession
-                        insensible sympathize boisterous it. Songs he on an widen me event truth. Certain law age
-                        brother sending amongst why covered.
-                    </p>
-                    <p>
-                        Bed sincerity yet therefore forfeited his certainty neglected questions. Pursuit chamber as
-                        elderly amongst on. Distant however warrant farther to of. My justice wishing prudent waiting in
-                        be. Comparison age not pianoforte increasing delightful now. Insipidity sufficient dispatched
-                        any reasonably led ask. Announcing if attachment resolution sentiments admiration me on
-                        diminution. Son agreed others exeter period myself few yet nature. Mention mr manners opinion if
-                        garrets enabled. To an occasional dissimilar
-                    </p>
+                    <p>Offering classes from leading instructors across fitness, wellness, mental health and nutrition,
+                        with new programs added every month. Our classes help people to learn new skills to live their
+                        best lives. Doing Our Bit is the largest free platform supporting the wellbeing of frontline
+                        workers in the UK..</p>
+                    <ul class="list_check mt-30 mb-30">
+                        <li>Get Active.</li>
+                        <li>Learn New Skills</li>
+                        <li>Practice Mindfulness.</li>
+                        <li>Have Fun.</li>
+                    </ul>
+                    <a href="#" class="app_btn">Get Started</a>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Foundation -->
+    </section><!-- /.doc_section -->
 
 
 
-    <!-- Start Cleints 
-    ============================================= -->
-    <!-- <div class="clients-area bg-gray default-padding">
+    <section class="video_section3 overlay">
+
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="clients-items clients-carousel owl-carousel owl-theme">
-                        <div class="item">
-                            <a href="#"><img src="assets/img/150x80.png" alt="Thumb"></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="assets/img/150x80.png" alt="Thumb"></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="assets/img/150x80.png" alt="Thumb"></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="assets/img/150x80.png" alt="Thumb"></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="assets/img/150x80.png" alt="Thumb"></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="assets/img/150x80.png" alt="Thumb"></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="assets/img/150x80.png" alt="Thumb"></a>
-                        </div>
-                    </div>
-                </div>
+
+            <div class="video_content">
+
+
+                <h2>
+
+                    "After the final no there comes a yes ... And on that yes the future world depends."</span>
+
+                </h2>
+                <p>Wallace Stevens</p>
             </div>
         </div>
-    </div> -->
-    <!-- End Cleints -->
+
+    </section>
+
 
 
 
@@ -260,7 +452,8 @@
     <!--======= FOOTER UP =========-->
     <section class="footer-up">
         <div class="col-sm-3">
-            <div class="logo"> <a href="index.html"> <img src="assets/img/logo-light.png" alt="StoryX Logo"></a> </div>
+            <div class="logo"> <a href="index.html"> <img src="assets/img/logo-light.png" alt="StoryX Logo"></a>
+            </div>
         </div>
 
         <div class="col-sm-3">
@@ -275,7 +468,7 @@
                     <li><a href="slavery.html">Accessibility statement</a></li>
                     <li><a href="slavery.html">Anti-slavery and human trafficking statement</a></li>
                     <li>
-                        <a href="carbon.html">Carbon Commitment</a>
+                        <a href="sustainability.html">Sustainability</a>
                     </li>
 
                 </ol>
@@ -291,9 +484,9 @@
         </div>
 
         <div class="col-sm-3">
-            
-            <div class="contact">
-                
+
+            <div class="contact row">
+
                 <!--======= Social Icon =========-->
 
 
@@ -305,10 +498,10 @@
                         <a href="#"><i class="fab fa-twitter"></i></a>
                     </li>
                     <li class="pinterest">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
                     </li>
                     <li class="dribbble">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
                     </li>
                 </ul>
 
@@ -321,13 +514,37 @@
     </section>
 
 
-    <section id="footer">
 
-        <p>Company no. 14197072 (England & Wales)</p>
-        <p>Copyright © 2022 - All Rights Reserved</p>
+    </footer>
 
-    </section>
-    <!-- Wrap End -->
+
+
+
+
+
+
+    <a data-scroll href="#header" id="scroll-to-top"><i class="arrow_carrot-up"></i></a>
+
+    <!-- jQuery Lib -->
+    <script src="assets/sustainability/js/vendor/jquery-1.12.4.min.js"></script>
+    <!-- waypoints js -->
+    <script src="assets/sustainability/js/vendor/waypoints.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/sustainability/js/vendor/bootstrap.min.js"></script>
+    <!-- OWL-Carousel JS -->
+    <script src="assets/sustainability/js/vendor/owl.carousel.min.js"></script>
+    <!-- Smooth Scroll JS -->
+    <script src="assets/sustainability/js/vendor/smooth-scroll.min.js"></script>
+    <!-- venobox JS -->
+    <script src="assets/sustainability/js/vendor/venobox.min.js"></script>
+    <!-- Counterup JS -->
+    <script src="assets/sustainability/js/vendor/jquery.counterup.min.js"></script>
+    <!-- Ajaxchimp JS -->
+    <script src="assets/sustainability/js/vendor/jquery.ajaxchimp.min.js"></script>
+    <!-- wow JS -->
+    <script src="assets/sustainability/js/vendor/wow.min.js"></script>
+    <!-- Main JS -->
+    <script src="assets/sustainability/js/main.js"></script>
 
     <!-- jQuery Frameworks
     ============================================= -->
